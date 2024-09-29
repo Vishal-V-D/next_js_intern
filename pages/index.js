@@ -112,8 +112,7 @@ export default function SocialProject() {
         <div className="flex flex-col items-center justify-center text-center md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-lg mb-4 md:text-xl">SET THE CHANGE IN MOTION</h1>
           <p className="text-4xl font-bold mb-8 md:text-5xl lg:text-6xl">
-            Secure her path to a 
-            <br />brighter future...
+          Secure her path to a <br />brighter future&hellip;
           </p>
           <div className="flex items-center w-full max-w-md">
             <input
@@ -135,7 +134,7 @@ export default function SocialProject() {
               
             </div>
           ) : (
-            <img src="/child.png" alt="A child receiving support" className="w-full h-auto object-cover rounded-lg" />
+            <Image src="/child.png" alt="A child receiving support" width={500} height={500} className="w-full h-auto object-cover rounded-lg" />
           )}
         </div>
       </section>
@@ -282,11 +281,12 @@ export default function SocialProject() {
         <div className="flex flex-col justify-center">
           <h2 className="text-xl font-bold">Environment</h2>
           <p className="text-gray-600 mt-2">
-            The environment in which children grow up is vital in shaping their futures and,
-            consequently, the future of society. A supportive, nurturing, and stimulating environment
-            significantly enhances children's development and generates a ripple effect of positive
-            outcomes for the community and the world.
-          </p>
+  The environment in which children grow up is vital in shaping their futures and, 
+  consequently, the future of society. A supportive, nurturing, and stimulating environment 
+  significantly enhances children&apos;s development and generates a ripple effect of positive 
+  outcomes for the community and the world.
+</p>
+
         </div>
         <div className="flex justify-center items-center">
           <div className="bg-green-600 p-4 rounded-lg">
@@ -370,15 +370,12 @@ export default function SocialProject() {
       {/* Newsletter Section */}
       <div>
       <Head>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script async src="https://cdn.tailwindcss.com"></script>
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           rel="stylesheet"
         />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
+       
       </Head>
 
       <div className="bg-gray-100">
@@ -387,16 +384,18 @@ export default function SocialProject() {
           <div className="flex justify-center items-center">
             <i className="fas fa-chevron-left text-3xl text-gray-400"></i>
             <div className="mx-4 p-4 bg-white flex items-center">
-              <img
-                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-KqChJxILoJXohxeebcgUVggO.png?..."
+              <Image
+                src="https://via.placeholder.com/300x200
+"
                 alt="Child with a hopeful expression"
                 className="w-24 h-24 object-cover rounded-full mr-4"
               />
               <div>
-                <p className="text-sm text-gray-600">
-                  "This shop had everything I was looking for plus so much more. From the minute I walked in,
-                  everyone made me feel so incredibly welcome. I will definitely be back."
-                </p>
+              <p className="text-sm text-gray-600">
+  &quot;This shop had everything I was looking for plus so much more. From the minute I walked in,
+  everyone made me feel so incredibly welcome. I will definitely be back.&quot;
+</p>
+
                 <p className="text-sm text-gray-600 mt-2">- Nadia L.</p>
               </div>
               <div className="ml-4 p-4 bg-blue-500 text-white text-center">
@@ -521,7 +520,7 @@ export default function SocialProject() {
             {/* Footer */}
             <div className="flex justify-between items-center mt-6">
               <div className="flex items-center">
-                <img
+                <Image
                   src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-VvdIWsDHpiSPGvHVT7zfeFs9.png?..."
                   alt="The Social Project logo"
                   className="w-12 h-12 mr-4"
@@ -532,7 +531,7 @@ export default function SocialProject() {
                 </div>
               </div>
               <div className="flex items-center">
-                <img
+                <Image
                   src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-VvdIWsDHpiSPGvHVT7zfeFs9.png?..."
                   alt="The Social Project logo"
                   className="w-12 h-12 mr-4"
